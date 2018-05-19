@@ -5,6 +5,7 @@ def prime?(n)
       else n % 2 == 0 || n % 3 == 0
       false
     else n.odd?
+      true
 end
   
 end
