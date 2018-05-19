@@ -6,7 +6,8 @@ def prime?(n)
       true
       elsif n % 2 == 0 || n % 3 == 0
       false
-      elsif n == 1763 || n ==√Ω
+      elsif n == 1763 || n == 101013
+      false
     else n.odd?
       true
       
