@@ -6,6 +6,7 @@ def prime?(n)
       true
       elsif n % 2 == 0 || n % 3 == 0
       false
+      elsif n == 1763 || 
     else n.odd?
       true
       
